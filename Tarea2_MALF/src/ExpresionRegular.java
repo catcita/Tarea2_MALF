@@ -1,4 +1,11 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class ExpresionRegular {
+
+    public static final Set<Character> operadores = Set.of('.','|','*','(',')','-','~');
+
+
 
     static public void comprobarExpresionRegular(String _er)
     {

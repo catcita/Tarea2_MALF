@@ -10,6 +10,7 @@ public class Gramatica {
         this.variables = new HashSet<>();
         this.terminales = new HashSet<>();
         this.reglas = new HashMap<>();
+        this.simboloInicial = "S";
     }
 
     // Métodos para agregar reglas, terminales y definir el símbolo inicial
